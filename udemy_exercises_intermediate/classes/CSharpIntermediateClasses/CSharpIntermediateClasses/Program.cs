@@ -12,7 +12,7 @@ namespace CSharpIntermediateClasses
             var stopWatch = new StopStopWatch();
             //Console.WriteLine(startWatch.GetInitialTime(DateTime.Now.ToLongTimeString()));
             //var StartTime = ;
-            Console.WriteLine(stopWatch.GetDuration(startWatch.GetInitialTime(DateTime.Now.ToLongTimeString())));
+            Console.WriteLine(stopWatch.GetDuration(startWatch.GetInitialTime()));
            // Console.WriteLine(st);
 
 

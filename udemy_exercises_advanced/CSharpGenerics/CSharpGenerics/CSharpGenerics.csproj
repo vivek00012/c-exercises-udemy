@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F49BED4-3B6C-45A2-B033-65DE54EED26C}</ProjectGuid>
+    <ProjectGuid>{174890B3-5B4E-4A92-ABB5-6205D2C4290C}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>stackoverflow_voting</RootNamespace>
-    <AssemblyName>stackoverflow_voting</AssemblyName>
+    <RootNamespace>CSharpGenerics</RootNamespace>
+    <AssemblyName>CSharpGenerics</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DownVote.cs" />
-    <Compile Include="Post.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="DiscountCalculator.cs" />
+    <Compile Include="GenericDictionary.cs" />
+    <Compile Include="GenericList.cs" />
+    <Compile Include="Nullable.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpVote.cs" />
-    <Compile Include="Voting.cs" />
+    <Compile Include="Utilities.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

@@ -9,11 +9,11 @@ namespace CSharpIntermediateClasses
     class StartStopWatch
     {
 
-        public string StartTime { get; private set; }
+        private string _startTime;
 
-        public string GetInitialTime(string time)
+        public string GetInitialTime()
         {
-            this.StartTime = time;
+            this._startTime=DateTime.Now.ToLongTimeString();
             while (true)
             {
                 var userInput = Console.ReadLine();
@@ -28,8 +28,8 @@ namespace CSharpIntermediateClasses
                
                 if (userInput == "Start")
                 {
-                    Console.WriteLine("The Start time is "+time);
-                    return time;
+                    Console.WriteLine("The Start time is "+ _startTime);
+                    return _startTime;
                 }
                 else
                 {

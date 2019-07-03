@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1F49BED4-3B6C-45A2-B033-65DE54EED26C}</ProjectGuid>
+    <ProjectGuid>{0DC59E35-E5E4-4B9A-A6C0-DE889BC598DC}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>stackoverflow_voting</RootNamespace>
-    <AssemblyName>stackoverflow_voting</AssemblyName>
+    <RootNamespace>CSharpDelegates</RootNamespace>
+    <AssemblyName>CSharpDelegates</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DownVote.cs" />
-    <Compile Include="Post.cs" />
+    <Compile Include="Photo.cs" />
+    <Compile Include="PhotoFilter.cs" />
+    <Compile Include="PhotoProcessors.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="UpVote.cs" />
-    <Compile Include="Voting.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
