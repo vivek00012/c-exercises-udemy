@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0DC59E35-E5E4-4B9A-A6C0-DE889BC598DC}</ProjectGuid>
+    <ProjectGuid>{5C1733DB-B8CC-4B92-A438-3FD339281517}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpDelegates</RootNamespace>
-    <AssemblyName>CSharpDelegates</AssemblyName>
+    <RootNamespace>CSharpExtensionMethods</RootNamespace>
+    <AssemblyName>CSharpExtensionMethods</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,12 +42,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenericDelegates.cs" />
-    <Compile Include="Photo.cs" />
-    <Compile Include="PhotoFilter.cs" />
-    <Compile Include="PhotoProcessors.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StringExtension.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />

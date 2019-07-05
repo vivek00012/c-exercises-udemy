@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0DC59E35-E5E4-4B9A-A6C0-DE889BC598DC}</ProjectGuid>
+    <ProjectGuid>{DBBE3552-B6B8-40E7-8692-B92C8E79689D}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpDelegates</RootNamespace>
-    <AssemblyName>CSharpDelegates</AssemblyName>
+    <RootNamespace>CSharpLinq</RootNamespace>
+    <AssemblyName>CSharpLinq</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenericDelegates.cs" />
-    <Compile Include="Photo.cs" />
-    <Compile Include="PhotoFilter.cs" />
-    <Compile Include="PhotoProcessors.cs" />
+    <Compile Include="Book.cs" />
+    <Compile Include="BookRepository.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

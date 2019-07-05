@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{0DC59E35-E5E4-4B9A-A6C0-DE889BC598DC}</ProjectGuid>
+    <ProjectGuid>{E102C63A-E9F5-46C7-8326-5EF155C1A53A}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CSharpDelegates</RootNamespace>
-    <AssemblyName>CSharpDelegates</AssemblyName>
+    <RootNamespace>NullablesandDynamics</RootNamespace>
+    <AssemblyName>NullablesandDynamics</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -42,10 +42,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GenericDelegates.cs" />
-    <Compile Include="Photo.cs" />
-    <Compile Include="PhotoFilter.cs" />
-    <Compile Include="PhotoProcessors.cs" />
+    <Compile Include="ClassA.cs" />
+    <Compile Include="ClassB.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
